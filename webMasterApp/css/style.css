@@ -1,0 +1,59 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: red;
+}
+
+.carousel-inner {
+    height: 60%;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY();
+    background-color: rgb(76, 0, 255, 0.5);
+    bottom: initial;
+}
+
+.card {
+    margin: 20px;
+}
+
+.row {
+    margin: 20px;
+}
+
+footer {
+    background-color: #4c00ff;
+    color: white;
+    padding: 3%;
+    margin-top: 50px;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 40px;
+    padding: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fa-brands:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebMasterApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Bootstrap/webMasterApp/css/style.css">
+    <script href="/Bootstrap/webMasterApp/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/457d6e4c81.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="/Bootstrap/webMasterApp/images/labels/logo.png" alt="Bootstrap" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Photoes-->
+    <!-- <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image1.jpg" class="d-block w-100" alt="...">
+                    <!-- Button trigger modal 
+                    <div class="carousel-caption d-none d-md-block primary" style="opacity: 50%;">
+                        <button type="button" class="btn btn-primary stop" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Get Started
+                        </button>
+
+                        <!-- Modal 
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <button>Get Started</button>
+                    <h2>Do you want to master web development</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/Bootstrap/webMasterApp/images/pictures/carousel-image3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <!-- <div class="card">
+            <img src="/Bootstrap/webMasterApp/images/progLang/bootstrap.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <img src="/Bootstrap/webMasterApp/images/progLang/css3.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <img src="/Bootstrap/webMasterApp/images/progLang/html5.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <img src="/Bootstrap/webMasterApp/images/progLang/javascript.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <img src="/Bootstrap/webMasterApp/images/progLang/jquery.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <img src="/Bootstrap/webMasterApp/images/progLang/php.png " class="card-img-top " alt="... ">
+            <div class="card-body ">
+                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div> -->
+
+        <div class="card-group">
+            <div class="card">
+                <img src="/Bootstrap/webMasterApp/images/progLang/bootstrap.png" class="card-img-top mx-auto d-block" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/progLang/css3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/progLang/html5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/progLang/javascript.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/progLang/jquery.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">JQUERY</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/progLang/php.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h3>Web Development</h3>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur temporibus praesentium ad distinctio dolor in enim dicta laudantium, mollitia architecto? Ipsum quod, rerum in voluptas fugit vel sint saepe nam. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Tempore eos deleniti odit inventore! Doloribus dolores similique obcaecati iusto consequatur ipsam aut saepe quod explicabo, nulla, laudantium quam fuga! Neque, harum. Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Tenetur pariatur repellat sequi quidem quasi, nobis cupiditate perferendis culpa provident minus magnam fugiat. Magnam, eius! Qui magni consectetur fugiat voluptatum minima.
+                </div>
+                <div class="col-sm">
+                    <img src="images/labels/web.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Contanct Us</h3>
+                    <p>Our Contacts</p>
+                </div>
+                <div class="col-sm">
+                    <h3>Social Media</h3>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-vk"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <div class="col-sm">
+                    <a href=""><img src="images/labels/logo.png" height="80em" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/457d6e4c81.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
