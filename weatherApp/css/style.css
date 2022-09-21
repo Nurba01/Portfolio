@@ -1,0 +1,38 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/weather.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainDiv {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+#city {
+    margin: 5% 0;
+}
+
+.alert {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#forecastDiv {
+    text-align: center;
+    margin-top: 10px;
+}
